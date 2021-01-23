@@ -5,7 +5,7 @@ class Hammer {
           friction : 1.0,
           restitution :0.5
       }
-      this.body =  Bodies.rectangle(x,y,150,50,options);
+      this.body =  Bodies.rectangle(x,y,150,40,options);
       this.width = 150;
       this.height = 40;
       Matter.Body.setAngle(this.body, angle);
