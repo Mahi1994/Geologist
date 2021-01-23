@@ -7,9 +7,8 @@ class Hammer {
       }
       this.body =  Bodies.rectangle(x,y,150,50,options);
       this.width = 150;
-      this.height = 50;
-      this.angle = angle;
-        Matter.Body.setAngle(this.body, this.angle);
+      this.height = 40;
+      Matter.Body.setAngle(this.body, angle);
       World.add(world,this.body);
     }
   
