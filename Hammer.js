@@ -1,5 +1,5 @@
 class Hammer {
-    constructor(x,y){
+    constructor(x,y,angle){
         var options = {
           density : 2,
           friction : 1.0,
@@ -8,6 +8,8 @@ class Hammer {
       this.body =  Bodies.rectangle(x,y,100,50,options);
       this.width = 100;
       this.height = 50;
+      this.angle = angle;
+        Matter.Body.setAngle(this.body, this.angle);
       World.add(world,this.body);
     }
   
