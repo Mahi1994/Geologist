@@ -38,8 +38,8 @@ function draw() {
   background("lightblue");
   Engine.update(engine);
   rectMode(CENTER);
-  hammer.display();
   ground.display();
+  hammer.display();
   rubber.display();
   sand1.display();
   sand2.display();
