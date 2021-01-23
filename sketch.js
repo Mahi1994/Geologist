@@ -12,7 +12,7 @@ var iron;
 var stone;
 
 function setup() {
-	createCanvas(800, 700);
+	createCanvas(1200, 700);
 	rectMode(CENTER);
 
 	engine = Engine.create();
@@ -20,7 +20,7 @@ function setup() {
      
 	//Create the Bodies Here.
     hammer = new Hammer(10,100);
-    ground = new Ground(600,height,1200,20)
+    ground = new Ground(600,350,1200,20)
     stone = new Stone(700,320,100,100);
     iron = new Iron(300,350);
     rubber=new Rubber(900,450,70);
